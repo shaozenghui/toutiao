@@ -7,6 +7,13 @@
            <el-carousel-item>
             <a href="javascript:;"><img src="../../assets/images/banner/banner2.png" alt=""></a>
           </el-carousel-item>
+          <el-carousel-item>
+            <a href="javascript:;"><img src="../../assets/images/banner/banner3.png" alt=""></a>
+          </el-carousel-item>
+           <el-carousel-item>
+            <a href="javascript:;"><img src="../../assets/images/banner/banner4.png" alt=""></a>
+          </el-carousel-item>
+
         </el-carousel>
   </div>
 </template>

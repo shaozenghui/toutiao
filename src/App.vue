@@ -43,19 +43,17 @@ export default {
   },
   created(){
       this.axios.get("http://text_img_list.cn").then(resp=>{
-         console.log(resp.data);
+        
          this.text_img_list = resp.data;
       }).catch(err=>{
         console.log(err)
       }) 
       this.axios.get("http://hotnew.cn").then(resp=>{
-         console.log(resp.data);
          this.hotnew = resp.data;
       }).catch(err=>{
         console.log(err)
       }) 
       this.axios.get("http://moreList.cn").then(resp=>{
-         console.log(resp.data);
          this.moreList = resp.data;
       }).catch(err=>{
          console.log(err)
@@ -83,6 +81,11 @@ export default {
     margin: 20px auto;
     overflow: hidden;
  }
+   .el-alert{
+    background: #3da8f5;
+    color:#fff;
+    cursor: pointer;
+  }
  .nav_class{
     background-color: #ed4040 !important;
     color: #fff !important;

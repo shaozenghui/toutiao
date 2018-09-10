@@ -5,7 +5,7 @@
             <a href="javascript:;" class="title">{{v.title}}</a>
             <p>
               <span class="type">{{v.type}}</span>
-              <span class="media"><img :src="v.small_img" alt="">{{v.media}}&nbsp;⋅&nbsp;{{v.timelong}}评论&nbsp;⋅&nbsp;{{v.comment}}分钟前</span>
+              <span class="media"><img :src="v.media_avatar_url" alt="">{{v.source}}&nbsp;⋅&nbsp;{{v.video_play_count}}评论&nbsp;⋅&nbsp;{{v.comments_count}}分钟前</span>
             </p>
             <span class="close" id="v.id" @click="close(k)"><span>不感兴趣</span><i class="el-icon-close"></i></span>
           </li>

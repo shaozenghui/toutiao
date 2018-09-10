@@ -14,9 +14,6 @@ export default{
 
 		}
 	},
-	created(){
-		console.log(this.moreList)
-	}
 }
 </script>
 <style lang="less" scoped>
